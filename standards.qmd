@@ -1,0 +1,56 @@
+---
+title: "DTM standards"
+---
+
+
+The  DTM  Standards  specify  the  minimum  requirements  and recommended guidelines to support all DTM staff to successfully implement  DTM  programmes.  The  Standards  apply  worldwide across DTM activities and serve as a reference tool for DTM staff, IOM  partners  and  other  stakeholders  and  users,  particularly  in the use of DTM data.
+
+Through harmonization of the various DTM guidance documents produced across operations and over time, the Standards make it easier to identify good practices as well as existing gaps. As they become  available,  the  Standards  will  be  posted  to  a  centralized DTM  Standards  SharePoint  space,  to  help  all  users  to  quickly locate and retrieve relevant requirements and guidelines.
+
+The  Standards  are  minimum  requirements  that  recognize  the importance of consistent safeguards, systematic monitoring and evaluation  as  well  as  comparisons  of  DTM  exercises  and  data across time and context. Developed collectively by DTM staff from country, regional and global teams, the Standards also recognize the importance of flexibility and adaptability in DTM’s response to  context-specific  needs.  Changing  conditions,  innovation  and emerging practices will inform revisions to our Standards.
+
+The DTM Standards cover the following topics:
+
+AI, DATA SCIENCE AND ETHICS
+This Standard provides recommendations for the full lifecycle of AI and data science projects in DTM, from background information and preparatory work to post-mortem assessments. This Standard also compiles a wide range of resources for further reading into specific issues, in addition to providing clear, IOM-specific guidance related to ethical, technical and practical concerns.
+
+DATA ANALYSIS PLANNING
+This Standard defines the process by which DTM Officers, together with partners, identify and prepare (research) objectives, and detailed plans that specify roles and responsibilities, outline and list the type and levels of analysis to be performed from both primary and secondary sources of data, the data analysis (and visualization) production tools, process and formats to be used, as well as the limitations (and risks) of the data and sources.
+
+DATA ARCHIVING, RECOVERY AND DESTRUCTION
+This Standard defines data archiving as the process of securely storing data not actively in use in DTM work. It defines data recovery as the process of retrieving information from archives for (return to) active use. It defines data destruction as the process of removing information from media (the material in which information is stored) in a way that it can no longer be retrievable or readable. This Standard describes the requirements and guidelines covering the classifications for the archiving, recovery and destruction of IOM/DTM data; how to securely archive, recover and/or destroy DTM data; the approval processes required; tracking DTM data archiving, recovery and destruction; and includes essential data archiving, recovery and destruction resources.
+
+DATA DESIGN AND COLLECTION
+This Standard provides requirements and guidelines on how to design and collect DTM data with the goal of producing high-quality data that is fit for use in both Humanitarian and Development settings as well as other DTM activities. This Standard defines the different steps involved in data collection from identifying the need for data up to data collection and validation. This Standard also provides guidelines on how to integrate data validation in the design process.
+
+DATA PROTECTION AND PRIVACY
+This Standard provides a checklist of key steps to secure the right to privacy of data subjects. IOM defines data protection as the systematic application of the institutional, technical and physical safeguards that preserve the right to privacy with respect to the collection, storage, use and disclosure of personal data. This Standard is informed by IOM Data Protection Principles (IOM IN 138), the DTM and Partners Toolkit and other key protection related resources. This Standard sets out actions and processes to adopt at each stage of the information management cycle.
+
+
+This Standard describes the requirements and guidelines covering all forms of data sharing including the process and approvals needed for sharing DTM data according to the IOM data classification and the Data Governance Policy (IOM IN 253).
+
+
+This Standard provides guidance on the production of DTM data visualization outputs at the global, regional and mission level to ensure consistency and standardization across all DTM outputs. This Standard provides specific parameters to consider when producing visualizations; link to existing visualization sources (e.g. DTM Reporting Standards, DTM Data Visualization Design Guidance); identify gaps and define new standards, if and as needed; and outline the process needed for clearance/approval for external dissemination. This Standard will cover products that are narrative in focus (visuals for reports), maps or any other visual output, including static and dynamic outputs.
+
+
+This Standard provides guidance which includes clear definitions and procedures for engaging, initiating, and maintaining relationships. Also included in this Standard are typical classifications and types of partnerships — boundaries for engagement — and protocols for entering partnerships, coordinating thoroughly with IOM’s Departments of External Relations, Legal Affairs, and other relevant focal points. Furthermore, this Standard draws on and expands, in parts, on already established literature within IOM.
+
+
+This Standard draws from the IOM/DTM Geospatial Systems Resource Guide and provides operational guidance in addition to providing definitions and standards on spatial data infrastructure, cartographic design, and visualizations related to geospatial data.
+
+Within this Standard, internal data consolidation is defined as the process of centralizing datasets produced by each DTM mission at the regional and global level. This document outlines the steps for sharing and validating a final dataset through different pipelines to ensure DTM data consistency.
+
+
+Within this Standard, per IOM’s Monitoring and Evaluation Strategy, monitoring is defined as the continuous function that uses the systematic collection of data on specified indicators to provide management and the main partners of DTM with an indication of the extent of progress and achievement of objectives and progress in the use of allocated funds. Evaluation is defined as the systematic and objective assessment of ongoing or completed DTM activities, their design, implementation and results. This Standard outlines existing M&E activities with good practices, presenting available sources and identifying the gaps in order to support the enhancement of DTM programme and data quality.
+
+
+This Standard draws a foundation from the IOM Project Handbook, promoting it as the reference point and key institutional standard for project management. This Standard also identifies key modules in the IOM Project Handbook of particular use for DTM operations and provides context specific examples such as enumerator modality, project development checklist, and cooperation agreements.
+
+
+For the purposes of this Standard, publishing constitutes the dissemination of DTM reports and data through official IOM/DTM web-platforms, recognized unaffiliated platforms (e.g. Reliefweb or HDX), academic journals, social media or other means of public dissemination. The primary focus of this tandard will be the publication of reports. This Standard covers: quality assurance protocols (including the review process), risk assessments for publications (data and political sensitivity), and DTM brand harmonization in reports.
+
+
+This Standard describes the definitions, requirements and guidelines covering sampling in DTM operations. Sampling methods, including designing a sample and sample frame, and implementation strategies are provided.
+
+
+This Standard defines training as the organized process by which people learn knowledge and/ or skill for a definite objective. Within DTM programmes, training refers to the teaching and learning activities planned and organized with the goal of (applying) knowledge, skills, abilities, and attitudes needed to advocate for, plan, implement, report on DTM activities.  This Standard outlines the steps and resources to be used when developing, implementing, and monitoring DTM training activities for different audience groups.

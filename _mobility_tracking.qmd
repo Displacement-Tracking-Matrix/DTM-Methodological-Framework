@@ -1,0 +1,132 @@
+
+
+## Mobility tracking {#sec-mobility_tracking}
+
+Mobility  tracking  aims  to  quantify  the  presence  of  population categories of interest (see Annex 1 – Population Categories for further details), reasons for displacement, length of displacement and needs within defined geographical areas and locations, with a frequency that captures mobility dynamics. This component is well  suited  to  quantifying  groups  of  people,  whether  internally displaced,  migrants  in  transit  locations,  stranded  migrants  or other populations of concern. Its approach is highly customizable: it  can  be  light-touch  or  in-depth  depending  on  the  phase  and requirements of the response, and often increases in depth and detail over successive rounds. Mobility tracking can be established quickly  and  is  suitable  for  covering  large  areas,  including  for nationwide  coverage.  It  is  better  suited  for  populations  with some base level of stability and predictability of location, rather than highly mobile populations. However, in and out movements are  routinely  captured,  and  the  event  tracking  tool  can  be supplemented  to  mitigate  this  limitation.  The  following  table provides  an  overview  of  the  key  tools  and  methods  under  this component:
+
+### Baseline area assessment
+
+#### Description And Objective
+
+The objective of the baseline area assessment (optional to implement) is to collate existing or collect new data on population presence in a defined large administrative area and to identify sub-areas for further assessment. It can be used following a sudden onset disaster due to climate change or a conflict to quickly generate key information on the displacement situation, identify locations that will need to be assessed regularly, and provide a first indication of displacement figures, informing the scope and focus of subsequent data collection.
+
+#### Data Collected And Examples Of Use
+
+The output is a list of sub-areas where populations of concern (e.g. IDPs, migrants or returnees) are present, by the observed large administrative level.
+
+Where  information  on  presence  of  the  population(s)  of  interest  is  already  existing,  a  desk review suffices for this step. Where data is directly collected, it includes:
+
+- Number of individuals (IDPs, migrants or returnees)
+
+- Reasons and date of displacement/return
+
+- Shelter/accommodation arrangements
+
+
+The results of the baseline area assessment can be used at the beginning of an emergency to rapidly identify the most affected areas and provide information on the scale of population movements, which can be shared to support partners’ response and programming. This systematic assessment of a defined geographic unit provides preliminary information and identifies locations that will need to be assessed regularly, forming the basis for more detailed assessments.
+
+#### Method
+
+The data is either collated based on a desk review or collected through key informants and
+cross-checked with any available secondary sources.
+
+#### Limitations And Risks
+
+The information gathered using this tool represents estimates and perceptions provided by
+key informants, with less precision due to the larger observation unit (e.g. district). Data
+accuracy is ensured through further assessments and triangulation of information, when
+feasible.
+
+### Baseline sub-area assessment
+
+#### Description and objective
+
+The objective of the Baseline Sub-Area Assessment is to collect data on population presence in defined sub-administrative areas identified through the Baseline Area Assessment (human settlements, such as villages and neighbourhoods). This allows for the collection of more exact figures at a lower level of observation. The assessment identifies where people are living and informs target locations for more detailed Multi-Sectoral Location Assessments (Section 5.1.3).
+
+#### Data collected and examples of use
+
+The output is a list of locations where populations of concern (e.g. IDPs, migrants or returnees) are present, by the observed lower administrative level.
+
+Data collected includes:
+
+- Number of individuals (IDPs, migrants or returnees)
+
+- Reasons and date of displacement/return
+
+- Shelter/accommodation arrangements
+
+- Needs (depending on the context)
+
+The results of the Baseline Sub-Area Assessment can be used to confirm and verify the results of the Baseline Area Assessment and provide more granular information at a lower administrative level. They are also used to map and geo-referenced the locations.
+
+#### Method
+
+The data is collected through key informants and cross-checked with any available secondary sources.
+
+#### Limitations And Risks
+
+The information gathered using this tool represents estimates and perceptions provided by key informants. However, key informants are likely to have more detailed information given the size of the observation unit (eg. village instead of district). Data accuracy is ensured through regular assessments and triangulation of information when feasible.
+
+### Multi-sectoral location assessmnet (MSLA)
+
+#### Description And Objective
+
+The objective of the Multi-Sectoral Location Assessment is to collect detailed data on the living conditions and needs of populations in particular locations identified through Baseline Sub-Area Assessments. The target population for MSLA depends on the specific scope and purpose of DTM implementation in a given context and may include only population in camp/ camp-like settings (sites), or populations residing in villages and neighbourhoods within host communities and/or areas of return of the observed population of concern.
+
+#### Data Collected And Examples Of Use
+
+The  output  obtained  is  detailed  data  on  the  numbers,  demographics,  needs  and  mobility dynamics  of  populations  of  concern  (e.g.  IDPs,  migrants  or  returnees)  by  geographic  unit. When applied to a site, it can be called a site profile.
+
+Data collected includes:
+
+- Number of individuals (IDPs, migrants or returnees)
+
+- Reasons and date of displacement/return
+
+- Shelter/accommodation arrangements
+
+- Characteristics and accessibility of the site
+
+- Data on multi-sectoral needs (WASH, food, health, livelihoods, protection,communication, etc)
+
+The  results  of  the  Multi-Sectoral  Location  Assessment  can  be  used  to  guide  operational responses by identifying severity in needs and gaps in assistance. DTM  sectoral  indicators  for  multi-sectoral  location  assessments  have  been  defined  in collaboration  with  external  stakeholders  including  Global  Clusters,  Working  Groups  and others1. Indicators  which  have  received  global  endorsement  can  be  found  in  the  DTM  Data Dictionary, a centralized repository of DTM questions/indicators and answers. Starting from Information  Needs  of  partners,  DTM  will  select  some  of  the  indicators,  and  develop  data collection  and  management  tools  that  are  appropriate  to  the  context.  Further  guidance  on indicator selection can be found in Section 7, including selection of data fields, indicators and questions.
+
+#### Method
+
+Data collection varies according to the context, data needs, resources and phase of the response. Modalities include interviews with key informants, direct observation, group interviews, measurements and counts.
+
+#### Limitations And Risks
+
+The information provided is meant to provide basic community level information related to different sectors (food, WASH, livelihood, etc.), which can be used to flag areas for assistance or more detailed technical assessments by sector experts.
+
+### Emergency event tracking/emergency tracking tool
+
+#### Description And Objective
+
+The objective of event tracking is to quickly collect initial information on mobilty- displacement and migration, caused by particular events, to keep pace with rapidly evolving situations during emergencies. It can serve to identify displacement events prior to the roll- out of other mobility tracking components or to provide timely updates on new displacement events occurring between assessment rounds.
+
+#### Data Collected And Examples Of Use
+
+The output is an ad hoc or regular report, compiling information about recent displacements in a particular area or location that are linked to a specific, defined event and population group.
+
+Data collected includes:
+
+- Population group description and numbers
+
+- Location the group is displaced from
+
+- Location the group is displaced to
+
+- Shelter/accommodation arrangements
+
+- Any initial data on sectoral needs
+
+Event tracking generates immediate alert reports regarding new displacements, which may trigger rapid response mechanisms for assistance. Event tracking data also feeds into planning for Baseline Location Assessments, when required.
+
+#### Method
+
+Data collection varies according to the context, data needs, available resources and phase of the migration crisis response. Modalities include interviews with key informants, direct observation and collection of secondary data.
+
+#### Limitations And Risks
+
+The information provided is related to a specific event and does not always provide an overview of all population movements within a location. Only information that can be gathered quickly is captured, and it may thus be incomplete. The data collected through this method can be used to identify locations where specific assessments need to be conducted to obtain more information, and/or to deliver rapid assistance.

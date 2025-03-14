@@ -1,0 +1,33 @@
+
+## Registration
+
+#### Description and objective
+
+The objective of registration is to derive census-like data on targeted population or to provide a functional identity (not a legal identity) to support the targeting and aid distribution.
+
+#### Data collected and examples of use
+
+The output depends on the specific purpose of the exercise but will generally be core census- like  data  on  a  targeted  population  or  a  registry  of  the  households  or  individuals  who  are receiving assistance from humanitarian partners.
+
+At a minimum, data collected includes:
+
+- Current location
+
+- Names, age and sex of individuals
+
+- Relationship to the head of household (where applicable)
+
+- Information on individuals with specific vulnerabilities
+
+- Place of previous residence
+
+
+Registration data has been used for a wide variety of direct assistance programs (e.g. food distribution, construction of shelter, cash assistance, support to the most vulnerable individuals, etc.) as well as for assisted movements such as relocation and return operations.
+
+#### Method
+
+Registration generally involves duplicate free registration of households’ and individuals’ information and provide a system to be used for targeting, aid distribution and regular updates. In some contexts, registration is conducted using biometric technology to reduce the risk of duplicate registration, where the households and individuals are registered, enrolled in an aid distribution programme, authenticated to ensure that the right person is receiving assistance and distribution details are recorded. Records are updated through verification exercise whereby the continued presence of every household member registered is confirmed biometrically.
+
+#### Limitations and risks
+
+The information collected through this method contains personally identifiable information that need to be managed in line with the IOM’s Data Protection Principles and access to the data is strictly regulated. To mitigate the risks of the data being used for an unauthorized and unintended purposes, adequate institutional, technical, and physical safeguards need to be put in place during collection, storage and sharing of the data. As the exercise is resource intensive, coordinating efforts between different agencies with registration capacities is both helpful and important.

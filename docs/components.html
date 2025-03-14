@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.41">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>5&nbsp; Description of DTM components, tools and methods – DTM Methodological Framework</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./limitations.html" rel="next">
+<link href="./selection.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-48ffa3e5b9d089919c6712c39e5b00f2.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-0bc9db366b46d51ffcc4468177e8888b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="././icons/logo.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">DTM Methodological Framework</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="./DTM-Methodological-Framework.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="./DTM-Methodological-Framework.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./components.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Description of DTM components, tools and methods</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./background.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Historical background and revision</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./objectives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Objectives and principles</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./selection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Selection of DTM component(s)</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./components.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Description of DTM components, tools and methods</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./limitations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Limitations and risks</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dictionary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Using the DTM dictionary selection of data fields, indicators and questions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classification.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Data classification and responsibilities</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./standards.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">DTM standards</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./partner-toolkit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">DTM partners toolkit</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Conclusion</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#sec-mobility_tracking" id="toc-sec-mobility_tracking" class="nav-link active" data-scroll-target="#sec-mobility_tracking"><span class="header-section-number">5.1</span> Mobility tracking</a>
+  <ul class="collapse">
+  <li><a href="#baseline-area-assessment" id="toc-baseline-area-assessment" class="nav-link" data-scroll-target="#baseline-area-assessment"><span class="header-section-number">5.1.1</span> Baseline area assessment</a></li>
+  <li><a href="#baseline-sub-area-assessment" id="toc-baseline-sub-area-assessment" class="nav-link" data-scroll-target="#baseline-sub-area-assessment"><span class="header-section-number">5.1.2</span> Baseline sub-area assessment</a></li>
+  <li><a href="#multi-sectoral-location-assessmnet-msla" id="toc-multi-sectoral-location-assessmnet-msla" class="nav-link" data-scroll-target="#multi-sectoral-location-assessmnet-msla"><span class="header-section-number">5.1.3</span> Multi-sectoral location assessmnet (MSLA)</a></li>
+  <li><a href="#emergency-event-trackingemergency-tracking-tool" id="toc-emergency-event-trackingemergency-tracking-tool" class="nav-link" data-scroll-target="#emergency-event-trackingemergency-tracking-tool"><span class="header-section-number">5.1.4</span> Emergency event tracking/emergency tracking tool</a></li>
+  </ul></li>
+  <li><a href="#flow-monitoring" id="toc-flow-monitoring" class="nav-link" data-scroll-target="#flow-monitoring"><span class="header-section-number">5.2</span> Flow Monitoring</a>
+  <ul class="collapse">
+  <li><a href="#baseline-assessment-for-flow-monitoring-country-level" id="toc-baseline-assessment-for-flow-monitoring-country-level" class="nav-link" data-scroll-target="#baseline-assessment-for-flow-monitoring-country-level"><span class="header-section-number">5.2.1</span> Baseline assessment for flow monitoring (country level)</a></li>
+  <li><a href="#baseline-assessment-of-flow-monitoing-points-local-level" id="toc-baseline-assessment-of-flow-monitoing-points-local-level" class="nav-link" data-scroll-target="#baseline-assessment-of-flow-monitoing-points-local-level"><span class="header-section-number">5.2.2</span> Baseline assessment of flow monitoing points (local level)</a></li>
+  <li><a href="#flow-monitoring-registry" id="toc-flow-monitoring-registry" class="nav-link" data-scroll-target="#flow-monitoring-registry"><span class="header-section-number">5.2.3</span> Flow monitoring registry</a></li>
+  <li><a href="#point-of-entry-poe-monitoring" id="toc-point-of-entry-poe-monitoring" class="nav-link" data-scroll-target="#point-of-entry-poe-monitoring"><span class="header-section-number">5.2.4</span> Point of entry (POE) monitoring</a></li>
+  </ul></li>
+  <li><a href="#registration" id="toc-registration" class="nav-link" data-scroll-target="#registration"><span class="header-section-number">5.3</span> Registration</a></li>
+  <li><a href="#survey" id="toc-survey" class="nav-link" data-scroll-target="#survey"><span class="header-section-number">5.4</span> Survey</a>
+  <ul class="collapse">
+  <li><a href="#multi-sectoral-needs-assessments-msna" id="toc-multi-sectoral-needs-assessments-msna" class="nav-link" data-scroll-target="#multi-sectoral-needs-assessments-msna"><span class="header-section-number">5.4.1</span> Multi-Sectoral Needs Assessments (MSNA)</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Description of DTM components, tools and methods</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="sec-mobility_tracking" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="sec-mobility_tracking"><span class="header-section-number">5.1</span> Mobility tracking</h2>
+<p>Mobility tracking aims to quantify the presence of population categories of interest (see Annex 1 – Population Categories for further details), reasons for displacement, length of displacement and needs within defined geographical areas and locations, with a frequency that captures mobility dynamics. This component is well suited to quantifying groups of people, whether internally displaced, migrants in transit locations, stranded migrants or other populations of concern. Its approach is highly customizable: it can be light-touch or in-depth depending on the phase and requirements of the response, and often increases in depth and detail over successive rounds. Mobility tracking can be established quickly and is suitable for covering large areas, including for nationwide coverage. It is better suited for populations with some base level of stability and predictability of location, rather than highly mobile populations. However, in and out movements are routinely captured, and the event tracking tool can be supplemented to mitigate this limitation. The following table provides an overview of the key tools and methods under this component:</p>
+<section id="baseline-area-assessment" class="level3" data-number="5.1.1">
+<h3 data-number="5.1.1" class="anchored" data-anchor-id="baseline-area-assessment"><span class="header-section-number">5.1.1</span> Baseline area assessment</h3>
+<section id="description-and-objective" class="level4">
+<h4 class="anchored" data-anchor-id="description-and-objective">Description And Objective</h4>
+<p>The objective of the baseline area assessment (optional to implement) is to collate existing or collect new data on population presence in a defined large administrative area and to identify sub-areas for further assessment. It can be used following a sudden onset disaster due to climate change or a conflict to quickly generate key information on the displacement situation, identify locations that will need to be assessed regularly, and provide a first indication of displacement figures, informing the scope and focus of subsequent data collection.</p>
+</section>
+<section id="data-collected-and-examples-of-use" class="level4">
+<h4 class="anchored" data-anchor-id="data-collected-and-examples-of-use">Data Collected And Examples Of Use</h4>
+<p>The output is a list of sub-areas where populations of concern (e.g.&nbsp;IDPs, migrants or returnees) are present, by the observed large administrative level.</p>
+<p>Where information on presence of the population(s) of interest is already existing, a desk review suffices for this step. Where data is directly collected, it includes:</p>
+<ul>
+<li><p>Number of individuals (IDPs, migrants or returnees)</p></li>
+<li><p>Reasons and date of displacement/return</p></li>
+<li><p>Shelter/accommodation arrangements</p></li>
+</ul>
+<p>The results of the baseline area assessment can be used at the beginning of an emergency to rapidly identify the most affected areas and provide information on the scale of population movements, which can be shared to support partners’ response and programming. This systematic assessment of a defined geographic unit provides preliminary information and identifies locations that will need to be assessed regularly, forming the basis for more detailed assessments.</p>
+</section>
+<section id="method" class="level4">
+<h4 class="anchored" data-anchor-id="method">Method</h4>
+<p>The data is either collated based on a desk review or collected through key informants and cross-checked with any available secondary sources.</p>
+</section>
+<section id="limitations-and-risks" class="level4">
+<h4 class="anchored" data-anchor-id="limitations-and-risks">Limitations And Risks</h4>
+<p>The information gathered using this tool represents estimates and perceptions provided by key informants, with less precision due to the larger observation unit (e.g.&nbsp;district). Data accuracy is ensured through further assessments and triangulation of information, when feasible.</p>
+</section>
+</section>
+<section id="baseline-sub-area-assessment" class="level3" data-number="5.1.2">
+<h3 data-number="5.1.2" class="anchored" data-anchor-id="baseline-sub-area-assessment"><span class="header-section-number">5.1.2</span> Baseline sub-area assessment</h3>
+<section id="description-and-objective-1" class="level4">
+<h4 class="anchored" data-anchor-id="description-and-objective-1">Description and objective</h4>
+<p>The objective of the Baseline Sub-Area Assessment is to collect data on population presence in defined sub-administrative areas identified through the Baseline Area Assessment (human settlements, such as villages and neighbourhoods). This allows for the collection of more exact figures at a lower level of observation. The assessment identifies where people are living and informs target locations for more detailed Multi-Sectoral Location Assessments (Section 5.1.3).</p>
+</section>
+<section id="data-collected-and-examples-of-use-1" class="level4">
+<h4 class="anchored" data-anchor-id="data-collected-and-examples-of-use-1">Data collected and examples of use</h4>
+<p>The output is a list of locations where populations of concern (e.g.&nbsp;IDPs, migrants or returnees) are present, by the observed lower administrative level.</p>
+<p>Data collected includes:</p>
+<ul>
+<li><p>Number of individuals (IDPs, migrants or returnees)</p></li>
+<li><p>Reasons and date of displacement/return</p></li>
+<li><p>Shelter/accommodation arrangements</p></li>
+<li><p>Needs (depending on the context)</p></li>
+</ul>
+<p>The results of the Baseline Sub-Area Assessment can be used to confirm and verify the results of the Baseline Area Assessment and provide more granular information at a lower administrative level. They are also used to map and geo-referenced the locations.</p>
+</section>
+<section id="method-1" class="level4">
+<h4 class="anchored" data-anchor-id="method-1">Method</h4>
+<p>The data is collected through key informants and cross-checked with any available secondary sources.</p>
+</section>
+<section id="limitations-and-risks-1" class="level4">
+<h4 class="anchored" data-anchor-id="limitations-and-risks-1">Limitations And Risks</h4>
+<p>The information gathered using this tool represents estimates and perceptions provided by key informants. However, key informants are likely to have more detailed information given the size of the observation unit (eg. village instead of district). Data accuracy is ensured through regular assessments and triangulation of information when feasible.</p>
+</section>
+</section>
+<section id="multi-sectoral-location-assessmnet-msla" class="level3" data-number="5.1.3">
+<h3 data-number="5.1.3" class="anchored" data-anchor-id="multi-sectoral-location-assessmnet-msla"><span class="header-section-number">5.1.3</span> Multi-sectoral location assessmnet (MSLA)</h3>
+<section id="description-and-objective-2" class="level4">
+<h4 class="anchored" data-anchor-id="description-and-objective-2">Description And Objective</h4>
+<p>The objective of the Multi-Sectoral Location Assessment is to collect detailed data on the living conditions and needs of populations in particular locations identified through Baseline Sub-Area Assessments. The target population for MSLA depends on the specific scope and purpose of DTM implementation in a given context and may include only population in camp/ camp-like settings (sites), or populations residing in villages and neighbourhoods within host communities and/or areas of return of the observed population of concern.</p>
+</section>
+<section id="data-collected-and-examples-of-use-2" class="level4">
+<h4 class="anchored" data-anchor-id="data-collected-and-examples-of-use-2">Data Collected And Examples Of Use</h4>
+<p>The output obtained is detailed data on the numbers, demographics, needs and mobility dynamics of populations of concern (e.g.&nbsp;IDPs, migrants or returnees) by geographic unit. When applied to a site, it can be called a site profile.</p>
+<p>Data collected includes:</p>
+<ul>
+<li><p>Number of individuals (IDPs, migrants or returnees)</p></li>
+<li><p>Reasons and date of displacement/return</p></li>
+<li><p>Shelter/accommodation arrangements</p></li>
+<li><p>Characteristics and accessibility of the site</p></li>
+<li><p>Data on multi-sectoral needs (WASH, food, health, livelihoods, protection,communication, etc)</p></li>
+</ul>
+<p>The results of the Multi-Sectoral Location Assessment can be used to guide operational responses by identifying severity in needs and gaps in assistance. DTM sectoral indicators for multi-sectoral location assessments have been defined in collaboration with external stakeholders including Global Clusters, Working Groups and others1. Indicators which have received global endorsement can be found in the DTM Data Dictionary, a centralized repository of DTM questions/indicators and answers. Starting from Information Needs of partners, DTM will select some of the indicators, and develop data collection and management tools that are appropriate to the context. Further guidance on indicator selection can be found in Section 7, including selection of data fields, indicators and questions.</p>
+</section>
+<section id="method-2" class="level4">
+<h4 class="anchored" data-anchor-id="method-2">Method</h4>
+<p>Data collection varies according to the context, data needs, resources and phase of the response. Modalities include interviews with key informants, direct observation, group interviews, measurements and counts.</p>
+</section>
+<section id="limitations-and-risks-2" class="level4">
+<h4 class="anchored" data-anchor-id="limitations-and-risks-2">Limitations And Risks</h4>
+<p>The information provided is meant to provide basic community level information related to different sectors (food, WASH, livelihood, etc.), which can be used to flag areas for assistance or more detailed technical assessments by sector experts.</p>
+</section>
+</section>
+<section id="emergency-event-trackingemergency-tracking-tool" class="level3" data-number="5.1.4">
+<h3 data-number="5.1.4" class="anchored" data-anchor-id="emergency-event-trackingemergency-tracking-tool"><span class="header-section-number">5.1.4</span> Emergency event tracking/emergency tracking tool</h3>
+<section id="description-and-objective-3" class="level4">
+<h4 class="anchored" data-anchor-id="description-and-objective-3">Description And Objective</h4>
+<p>The objective of event tracking is to quickly collect initial information on mobilty- displacement and migration, caused by particular events, to keep pace with rapidly evolving situations during emergencies. It can serve to identify displacement events prior to the roll- out of other mobility tracking components or to provide timely updates on new displacement events occurring between assessment rounds.</p>
+</section>
+<section id="data-collected-and-examples-of-use-3" class="level4">
+<h4 class="anchored" data-anchor-id="data-collected-and-examples-of-use-3">Data Collected And Examples Of Use</h4>
+<p>The output is an ad hoc or regular report, compiling information about recent displacements in a particular area or location that are linked to a specific, defined event and population group.</p>
+<p>Data collected includes:</p>
+<ul>
+<li><p>Population group description and numbers</p></li>
+<li><p>Location the group is displaced from</p></li>
+<li><p>Location the group is displaced to</p></li>
+<li><p>Shelter/accommodation arrangements</p></li>
+<li><p>Any initial data on sectoral needs</p></li>
+</ul>
+<p>Event tracking generates immediate alert reports regarding new displacements, which may trigger rapid response mechanisms for assistance. Event tracking data also feeds into planning for Baseline Location Assessments, when required.</p>
+</section>
+<section id="method-3" class="level4">
+<h4 class="anchored" data-anchor-id="method-3">Method</h4>
+<p>Data collection varies according to the context, data needs, available resources and phase of the migration crisis response. Modalities include interviews with key informants, direct observation and collection of secondary data.</p>
+</section>
+<section id="limitations-and-risks-3" class="level4">
+<h4 class="anchored" data-anchor-id="limitations-and-risks-3">Limitations And Risks</h4>
+<p>The information provided is related to a specific event and does not always provide an overview of all population movements within a location. Only information that can be gathered quickly is captured, and it may thus be incomplete. The data collected through this method can be used to identify locations where specific assessments need to be conducted to obtain more information, and/or to deliver rapid assistance.</p>
+</section>
+</section>
+</section>
+<section id="flow-monitoring" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="flow-monitoring"><span class="header-section-number">5.2</span> Flow Monitoring</h2>
+<p>Flow monitoring aims to derive quantitative estimates of the flow of individuals through specific locations and to collect information about the profiles, intentions and needs of the people moving. This component is well suited to quantifying highly mobile populations and providing a picture of complex mobility dynamics. It can be established quickly and is suitable for comprehensively covering of distinct Flow Monitoring Points. The following tables provide an overview of the key tools and methods under this component:</p>
+<section id="baseline-assessment-for-flow-monitoring-country-level" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="baseline-assessment-for-flow-monitoring-country-level"><span class="header-section-number">5.2.1</span> Baseline assessment for flow monitoring (country level)</h3>
+<section id="description-and-objective-4" class="level4">
+<h4 class="anchored" data-anchor-id="description-and-objective-4">Description and objective</h4>
+<p>The objective of the Baseline Assessment conducted at country level is to identify areas with population movements of interest where Flow Monitoring Points could be established, if needed.</p>
+</section>
+<section id="data-collected-and-examples-of-use-4" class="level4">
+<h4 class="anchored" data-anchor-id="data-collected-and-examples-of-use-4">Data collected and examples of use</h4>
+<p>The output is a list of potential Flow Monitoring Points.</p>
+<p>Data collected includes:</p>
+<ul>
+<li><p>List of key informants</p></li>
+<li><p>List of points (location, type of points (e.g.&nbsp;border crossing points, transit centers), type of movements (e.g.&nbsp;transit, incoming, outgoing))</p></li>
+<li><p>List of institutions, NGOs, international organizations operating in the identified areas</p></li>
+</ul>
+</section>
+<section id="method-4" class="level4">
+<h4 class="anchored" data-anchor-id="method-4">Method</h4>
+<p>Data is collected through participatory mapping with authorities and concerned partners. The data is used to guide the implementation of Flow Monitoring exercises, when locations of interest for Flow Monitoring Points are not already known.</p>
+</section>
+<section id="limitations-and-risks-4" class="level4">
+<h4 class="anchored" data-anchor-id="limitations-and-risks-4">Limitations and Risks</h4>
+<p>The information provided are collected through discussions with key informants and only give initial indications about areas with high mobility. Field visits/assessments need to be conducted to verify and confirm the information provided.</p>
+</section>
+</section>
+<section id="baseline-assessment-of-flow-monitoing-points-local-level" class="level3" data-number="5.2.2">
+<h3 data-number="5.2.2" class="anchored" data-anchor-id="baseline-assessment-of-flow-monitoing-points-local-level"><span class="header-section-number">5.2.2</span> Baseline assessment of flow monitoing points (local level)</h3>
+<section id="description-and-objective-5" class="level4">
+<h4 class="anchored" data-anchor-id="description-and-objective-5">Description and objective</h4>
+<p>The objective of the Baseline Assessment conducted at local level is to collect detailed information about the Flow Monitoring Points through field visits. These points might have been identified during the baseline flow assessment or were previously known locations of interest.</p>
+</section>
+<section id="data-collected-and-examples-of-use-5" class="level4">
+<h4 class="anchored" data-anchor-id="data-collected-and-examples-of-use-5">Data collected and examples of use</h4>
+<p>The output is a profile of Flow Monitoring Points.</p>
+<p>Data collected includes:</p>
+<ul>
+<li><p>List of key informants</p></li>
+<li><p>Description of points (location, type of points, mode of transport, type of movements)</p></li>
+<li><p>Supportive services and assistance available</p></li>
+<li><p>List of institutions, NGOs, international organizations operating in the identified areas</p></li>
+</ul>
+</section>
+<section id="method-5" class="level4">
+<h4 class="anchored" data-anchor-id="method-5">Method</h4>
+<p>Data is collected through interviews with key informants and through direct observation.</p>
+</section>
+<section id="limitations-and-risks-5" class="level4">
+<h4 class="anchored" data-anchor-id="limitations-and-risks-5">Limitations and risks</h4>
+<p>Data collected represents the situation at specific points of transit during selected hours of observations and provides only a partial view of the volume and characteristics of population flows transiting through the Flow Monitoring Points. This tool does not intend to provide a total number of all transiting populations, but rather to estimate volume and characteristics of population flows transiting through an observed point.</p>
+</section>
+</section>
+<section id="flow-monitoring-registry" class="level3" data-number="5.2.3">
+<h3 data-number="5.2.3" class="anchored" data-anchor-id="flow-monitoring-registry"><span class="header-section-number">5.2.3</span> Flow monitoring registry</h3>
+<section id="description-and-objective-6" class="level4">
+<h4 class="anchored" data-anchor-id="description-and-objective-6">Description and objective</h4>
+<p>The objective of the Flow Monitoring Registry is to collect information on the volume and basic characteristics of populations transiting during observation hours at selected Flow Monitoring Points.</p>
+</section>
+<section id="data-collected-and-examples-of-use-6" class="level4">
+<h4 class="anchored" data-anchor-id="data-collected-and-examples-of-use-6">Data collected and examples of use</h4>
+<p>The output is data on the individuals and groups moving through a transit location where Flow Monitoring Point has been established. Data collected includes: - Number, age and sex of individuals in the group in transit (disaggregation by age and sex may not be possible in early stages) - Previous transit point(s) and next destination (when possible, intended final destination as well) - Nationality - Mode of transportation The data collected is used to assess displacement or migration flows and trends inside a country, within a region or among regions.</p>
+</section>
+<section id="method-6" class="level4">
+<h4 class="anchored" data-anchor-id="method-6">Method</h4>
+<p>Data collection techniques include short interviews with individuals and key informants, or direct observation depending on the context, data needs, access and time allocated for the exercise.</p>
+</section>
+<section id="limitations-and-risks-6" class="level4">
+<h4 class="anchored" data-anchor-id="limitations-and-risks-6">Limitations and risks</h4>
+<p>Data collected represents the situation at specific points of transit during selected hours of observations and provides only a partial view of the volume and characteristics of population flows transiting through the Flow Monitoring Points. This tool does not intend to provide a total number of all transiting populations, but rather to estimate volume and characteristics of population flows transiting through an observed point.</p>
+</section>
+</section>
+<section id="point-of-entry-poe-monitoring" class="level3" data-number="5.2.4">
+<h3 data-number="5.2.4" class="anchored" data-anchor-id="point-of-entry-poe-monitoring"><span class="header-section-number">5.2.4</span> Point of entry (POE) monitoring</h3>
+<section id="description-and-objective-7" class="level4">
+<h4 class="anchored" data-anchor-id="description-and-objective-7">Description and objective</h4>
+<p>The COVID-19 pandemic resulted in unprecedented containment policies to restrict global human mobility to prevent the spread of the virus. To better understand how COVID-19 affects mobility across different levels (global, national, and sub-national), IOM has developed a database to map, track and analyze the impact of the COVID-19 pandemic on mobility at Points of Entry (PoE) and other Key Locations of Internal Mobility (KLIM) with restrictive measures and impacted populations. This information is intended to assist in understanding the present situation and in developing tailored responses by partners/governments, as well as provide valuable up-to-date information for further dissemination by civil society, including the media.</p>
+</section>
+<section id="data-collected-and-examples-of-use-7" class="level4">
+<h4 class="anchored" data-anchor-id="data-collected-and-examples-of-use-7">Data collected and examples of use</h4>
+<p>Data is collected using the same approach for both Points of Entry and other Key Locations of Internal Mobility (internal transit points, areas of interest and sites with a population of interest). Data is also collected on Migrant Flows to try and quantify the movement of migrants.</p>
+<p>Points of Entry (PoE) - Cross-border:</p>
+<ul>
+<li><p>Airports (presently or recently function airport with a designated International Air Traffic Association (IATA) code</p></li>
+<li><p>Land border crossing points (international border crossing point on land, including rail)</p></li>
+<li><p>Blue border crossing points (international border crossing on sea, river, lake)</p></li>
+<li><p>Other Key Locations of Internal Mobility - In-country locations with restrictive measures and impacted populations:</p></li>
+<li><p>Internal Transit Points (internal transit points inside a given country, territory or area)</p></li>
+<li><p>Areas of Interest (City, Town or Region with COVID-19 related restrictive measures such as a lockdown or quarantine)</p></li>
+<li><p>Sites with a population of Interest (locations such as hotels, temporary reception centres, camps, detention centres hosting groups such as migrants who may be stranded)</p></li>
+</ul>
+<p>Migrant Flows</p>
+<ul>
+<li><p>Estimated Daily Inflow</p></li>
+<li><p>Estimated Daily Outflow</p></li>
+</ul>
+<p>To comprehensively evaluate factors impacting Points of Entry, data is also collected on status of location, type of restrictions imposed, affected populations, restriction period, and the Public Health impact.</p>
+</section>
+<section id="method-7" class="level4">
+<h4 class="anchored" data-anchor-id="method-7">Method</h4>
+<p>DTM utilizes in-country expertise of IOM offices around the world to collect relevant information in a systematic and structured approach. DTM then cross-validates and continually check the data, in addition to consistent repeated assessments and triangulation of information.</p>
+</section>
+<section id="limitations-and-risks-7" class="level4">
+<h4 class="anchored" data-anchor-id="limitations-and-risks-7">Limitations and risks</h4>
+<p>The situation related to a global pandemic such as COVID-19 mobility restrictions evolved rapidly and thus data was continuously changing. Furthermore, the presented data categorisations may not accurately reflect the multiple and simultaneous restrictive measures at a specific point. The analysis presented on both the interactive and static products are always dated and timestamped in order to reflect the reality at a given time. In order to reflect the change over time, DTM are also conducting time series analysis to demonstrate the evolving context.</p>
+</section>
+</section>
+</section>
+<section id="registration" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="registration"><span class="header-section-number">5.3</span> Registration</h2>
+<section id="description-and-objective-8" class="level4">
+<h4 class="anchored" data-anchor-id="description-and-objective-8">Description and objective</h4>
+<p>The objective of registration is to derive census-like data on targeted population or to provide a functional identity (not a legal identity) to support the targeting and aid distribution.</p>
+</section>
+<section id="data-collected-and-examples-of-use-8" class="level4">
+<h4 class="anchored" data-anchor-id="data-collected-and-examples-of-use-8">Data collected and examples of use</h4>
+<p>The output depends on the specific purpose of the exercise but will generally be core census- like data on a targeted population or a registry of the households or individuals who are receiving assistance from humanitarian partners.</p>
+<p>At a minimum, data collected includes:</p>
+<ul>
+<li><p>Current location</p></li>
+<li><p>Names, age and sex of individuals</p></li>
+<li><p>Relationship to the head of household (where applicable)</p></li>
+<li><p>Information on individuals with specific vulnerabilities</p></li>
+<li><p>Place of previous residence</p></li>
+</ul>
+<p>Registration data has been used for a wide variety of direct assistance programs (e.g.&nbsp;food distribution, construction of shelter, cash assistance, support to the most vulnerable individuals, etc.) as well as for assisted movements such as relocation and return operations.</p>
+</section>
+<section id="method-8" class="level4">
+<h4 class="anchored" data-anchor-id="method-8">Method</h4>
+<p>Registration generally involves duplicate free registration of households’ and individuals’ information and provide a system to be used for targeting, aid distribution and regular updates. In some contexts, registration is conducted using biometric technology to reduce the risk of duplicate registration, where the households and individuals are registered, enrolled in an aid distribution programme, authenticated to ensure that the right person is receiving assistance and distribution details are recorded. Records are updated through verification exercise whereby the continued presence of every household member registered is confirmed biometrically.</p>
+</section>
+<section id="limitations-and-risks-8" class="level4">
+<h4 class="anchored" data-anchor-id="limitations-and-risks-8">Limitations and risks</h4>
+<p>The information collected through this method contains personally identifiable information that need to be managed in line with the IOM’s Data Protection Principles and access to the data is strictly regulated. To mitigate the risks of the data being used for an unauthorized and unintended purposes, adequate institutional, technical, and physical safeguards need to be put in place during collection, storage and sharing of the data. As the exercise is resource intensive, coordinating efforts between different agencies with registration capacities is both helpful and important.</p>
+</section>
+</section>
+<section id="survey" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="survey"><span class="header-section-number">5.4</span> Survey</h2>
+<p>In most cases, it is not possible nor necessary to interview every single member of a large population group because it is too costly and time-consuming, therefore a sample survey is used. A survey is a standardized way of using probability to collect information about a target group that produces conclusions that can be deemed representative of the population of interest. DTM’s survey component enriches and complements other DTM activities by providing a deeper understanding of mobile populations (e.g.&nbsp;IDPs, returnees, migrants). Initial survey design should consider geographic areas of interest, populations of interest and indicators of interest in order to identify the most appropriate methodological approach for the context. Depending on information needs and survey objectives, data can be collected using quantitative or qualitative tools; through individual, household or key informant interviews; and random or purposive sampling methodologies. Indicator selection will determine the appropriate type of survey required (quantitative or qualitative) and the primary sampling units (households, individuals, community representatives). Standardized indicators can be sourced from the DTM Data Dictionary (see Section 7 for more information) and adjusted for contextual needs. Where a survey is part of an inter-agency or multi-sectoral response, indicators may need to be agreed and/or validated through mandated coordination groups. DTM technical experts are available to support on indicator selection and design. Through its flow monitoring, mobility tracking and registration components, DTM builds and regularly updates the master-list of locations and information about how population categories are geographically spread. This baseline information can be used to develop a survey’s sampling framework where the populations of interest for the survey are already covered in the master list. Where statistically representative findings are required, random selection of households or individuals per population group is critical in ensuring validity. DTM technical experts support in the development of sample design methods to ensure an unbiased selection that is tailored to the available sample frame data. DTM has experience implementing the following types of survey categories: Return Intention Survey, Displacement Solutions Survey, Migration Flows Survey, Multi-Sectoral Needs Assessment Survey (MSNA), Socio-economic Surveys, Demographic Survey, and Post-return Surveys. Most DTM surveys are deployed to achieve a range of objectives, as a result specific guidance for the surveys mentioned above can be provided by the DTM Global Support team (dtmsupportservices@iom.int). Guidance for Multi-Sectoral Needs Assessments (MSNA) is provided in the Section 5.4.1 as this survey has a fixed objective.</p>
+<section id="multi-sectoral-needs-assessments-msna" class="level3" data-number="5.4.1">
+<h3 data-number="5.4.1" class="anchored" data-anchor-id="multi-sectoral-needs-assessments-msna"><span class="header-section-number">5.4.1</span> Multi-Sectoral Needs Assessments (MSNA)</h3>
+<p>The MSNA survey approach builds on available data on IDP, resident and return presence to provide more comprehensive information on humanitarian and recovery needs, directly from the population of interest. Through mobility tracking and Multi- Sectoral Location Assessments (MSLA), DTM operations are able to provide the population estimates needed for calculating MSNA sample size and sample locations. Using quantitative household interviews, the approach captures characteristics on vulnerabilities and assistance gaps within the target population(s). An MSNA survey allows for detailed metrics on use and awareness of services, disabilities, specific needs, as well as household characteristics that vary too widely to be accurately identified at community level. DTM MSNA aligns with the objectives and indicators of the Joint Intersectoral Analysis Framework (JIAF), under development by the Joint Intersectoral Analysis Group (JIAG). This inter-organizational tool aims to present a unified and standardized approach to collecting and analyzing humanitarian needs data and forms part of the Grand Bargain commitments of the Needs Assessment Workstream.1 MSNAs will usually integrate into the country-level Humanitarian Programme Cycle, specifically to inform the Humanitarian Needs Overview (HNO) and Humanitarian Response Plan (HPC).</p>
+<section id="description-and-objective-9" class="level4">
+<h4 class="anchored" data-anchor-id="description-and-objective-9">Description and objective</h4>
+<p>With the objective of producing aggregate data and evidence on vulnerabilities, severity of needs, and living conditions of target populations in areas of interest, the Multi-Sectoral Needs Assessment (MSNA) approach builds on location information identified through Mobility Tracking Assessments and other sources to identify, select and conduct household level interviews.</p>
+<p>The target population for MSNA depends on the specific scope and purpose of DTM implementation in a given context, and may include IDP, returnee, refugee populations in camps or camp-like settings (sites), populations residing in villages and neighbourhoods within host communities and/or areas of return of the observed population of concern</p>
+</section>
+<section id="data-collected-and-examples-of-use-9" class="level4">
+<h4 class="anchored" data-anchor-id="data-collected-and-examples-of-use-9">Data collected and examples of use</h4>
+<p>Through household level interviews, the MSNA produces aggregate data on characteristics, needs and mobility dynamics of populations of concern (IDPs, returnees, refugees, and residents as outlined by JIAF).</p>
+<p>At a minimum, data collected includes:</p>
+<ul>
+<li><p>Demographic characteristics of the population of concern</p></li>
+<li><p>Multi-sectoral needs (WASH, food, health, livelihoods, protection, communication, disability and inclusion, etc)</p></li>
+</ul>
+</section>
+<section id="method-9" class="level4">
+<h4 class="anchored" data-anchor-id="method-9">Method</h4>
+<ul>
+<li><p>Access to basic goods and services</p></li>
+<li><p>Shelter/accommodation arrangements</p></li>
+<li><p>Reasons for displacement/return</p></li>
+<li><p>Date of displacement/return</p></li>
+<li><p>Intentions</p></li>
+</ul>
+<p>The results of the MSNA can be used to guide operational responses by identifying needs, gaps in assistance, levels of access to assistance, intentions and concerns for the areas and populations of interest.</p>
+<p>The MSNA approach uses a multi-stage design that should be elaborated according to country context, response phase, sector specific information needs, available resources, and access constraints. Sample design is aimed at achieving a high degree of randomization in the selection of interviewees, while maintaining operational feasibility.</p>
+<p>STEP 1: Identify target populations and geographic areas of interest. Compile necessary population and geographic information for the sample design. Where possible, this should include the creation of enumeration areas of reasonably equal size.</p>
+<p>STEP 2: Develop a specific methodological Terms of Reference that includes: sampling strategy, a detailed data collection workplan, allocation of human and logistical resources and ethical considerations.</p>
+<p>STEP 3: Calculate and distribute sample across locations and population groups. This is dependent on size of the target population(s), desired levels of disaggregation/ analysis.</p>
+<p>STEP 4: Prepare field coordinators to perform survey duties, including support on ethical interview techniques, safety and security training, confidentiality and consent.</p>
+<p>STEP 5: Identify and randomly select households for interview. Data collection modalities include face-to-face or remote based interviews. Due to the volume of interviews, digital data collection tools are preferred for an MSNA.</p>
+<p>STEP 6: Monitor and validate data collection to ensure integrity of data through live field monitoring, remote sensing and quality checks.</p>
+<p>STEP 7: Manage and maintain dataset for release and sector-specific analysis.</p>
+<p>STEP 8: Production of reports and visualizations. Requirements for Probability Sampling include:</p>
+<ul>
+<li><p>Target population size in areas/ locations of interest (lowest level admin possible).</p></li>
+<li><p>Sample frame (a geo-referenced list of household populations) from which to select households randomly. Several approaches can be used to produce a sample frame, including adaptation of mobility tracking baseline data and spatial analysis of remote population estimates such as WorldPop.</p></li>
+<li><p>Access to target locations for face-to-face interviews should be consistent across the geographic areas of interest.</p></li>
+</ul>
+</section>
+<section id="limitations-and-risks-9" class="level4">
+<h4 class="anchored" data-anchor-id="limitations-and-risks-9">Limitations and risks</h4>
+<p>The information collected through this method contains sensitive data on needs, vulnerabilities and other household characteristics which can be misused if not handled properly. To mitigate the risks, surveys are conducted as per the IOM Data Protection Principles and access to the data is strictly regulated. To mitigate the risks of the data being used for an unauthorized and unintended purposes, adequate institutional, technical, and physical safeguards need to be put in place during collection, storage and sharing of the data. This exercise requires significant technical expertise and is human, logistical and financially resource intensive.</p>
+<p>MSNA surveys also entail the collection of sensitive information which may pose a risk to interviewees and data collectors and may trigger recollection of traumatic experiences. Indicators must be carefully designed to reduce trauma, including those relating to minors, persons with disabilities and those having experienced psychological distress or trauma.</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./selection.html" class="pagination-link" aria-label="Selection of DTM component(s)">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Selection of DTM component(s)</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./limitations.html" class="pagination-link" aria-label="Limitations and risks">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Limitations and risks</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

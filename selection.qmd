@@ -1,0 +1,18 @@
+---
+title: "Selection of DTM component(s)"
+---
+
+DTM  includes  four  standard  components  –  each  comprising various  methods  and  tools  –  that  can  be  applied,  adapted  and combined as relevant for a particular context and data needs. 
+
+The standard components are:
+
+i.  Mobility Tracking;
+ii. Flow Monitoring;
+iii.  Registration;
+iv.  Surveys.
+
+This  section  supports  an  initial  identification  of  the  best  suited DTM  component(s)  to  apply  in  a  particular  context,  based  on common  information  objectives  and  specific  characteristics  and constraints of the operating environment.
+
+Given  that  operating  environments  vary  widely  and  may entail  a  complex  set  of  conditions  and  requirements  for  DTM implementation,  it  will  often  be  necessary  to  combine  various components, tools and methods into a custom approach. Other factors such as available time, resources, in-country capacities and related  activities  undertaken  by  partners/government  will  also impact  the  selection  and  feasibility  of  particular  elements  and combinations in a given context.
+
+The table below groups DTM components, tools and methods by common  information  objectives  and  contextual  considerations. Additional  detail  on  the  expected  results  and  limitations  of methods and tools under each component is provided in Section 5.

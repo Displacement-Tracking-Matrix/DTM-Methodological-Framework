@@ -1,0 +1,50 @@
+
+number-depth: 3
+project:
+  type: book
+  output-dir: docs
+
+book:
+  navbar:
+    search: true
+    title: "DTM Methodological Framework"
+    background: "#0033A0"
+    foreground:  "white"
+    logo: "./icons/logo.png"
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Alert** - this is just an illustrative draft"
+    type: primary
+    position: below-navbar
+  author: "IOM - Displacement Tracking Matrix"
+  title: "DTM Methodological Framework"
+  subtitle: "For Quantifying Displacement and Mobility in Displacement Tracking Matrix Operations"
+  date: "18/Feb/2025"
+  original-date: "17/Feb/202"
+  downloads: [pdf, epub]
+  cover-image: cover.png
+  # sharing: [twitter, facebook]
+  chapters:
+    - index.qmd
+    - background.qmd
+    - introduction.qmd
+    - objectives.qmd
+    - selection.qmd
+    - components.qmd
+    - limitations.qmd
+    - dictionary.qmd
+    - classification.qmd
+    - standards.qmd
+    - partner-toolkit.qmd
+    - conclusion.qmd
+
+# bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    toc-depth: 3
+  typst: default
+  epub:
+    cover-image: cover.png

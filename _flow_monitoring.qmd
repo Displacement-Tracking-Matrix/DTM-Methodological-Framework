@@ -1,0 +1,121 @@
+
+## Flow Monitoring
+Flow monitoring aims to derive quantitative estimates of the flow of individuals through specific locations and to collect information about the profiles, intentions and needs of the people moving. This component is well suited to quantifying highly mobile populations and providing a picture of complex mobility dynamics. It can be established quickly and is suitable for comprehensively covering of distinct Flow Monitoring Points. The following tables provide an overview of the key tools and methods under this component:
+
+
+### Baseline assessment for flow monitoring (country level)
+
+#### Description and objective
+
+The objective of the Baseline Assessment conducted at country level is to identify areas with population movements of interest where Flow Monitoring Points could be established, if needed.
+
+#### Data collected and examples of use
+
+The output is a list of potential Flow Monitoring Points.
+
+Data collected includes:
+
+- List of key informants
+
+- List of points (location, type of points (e.g. border crossing points, transit centers), type of movements (e.g. transit, incoming, outgoing))
+
+-  List of institutions, NGOs, international organizations operating in the identified areas
+
+
+#### Method
+
+Data is collected through participatory mapping with authorities and concerned partners. The data is used to guide the implementation of Flow Monitoring exercises, when locations of interest for Flow Monitoring Points are not already known.
+
+#### Limitations and Risks
+
+The information provided are collected through discussions with key informants and only give initial indications about areas with high mobility. Field visits/assessments need to be conducted to verify and confirm the information provided.
+
+### Baseline assessment of flow monitoing points (local level)
+
+#### Description and objective
+
+The objective of the Baseline Assessment conducted at local level is to collect detailed information about the Flow Monitoring Points through field visits. These points might have been identified during the baseline flow assessment or were previously known locations of interest.
+
+#### Data collected and examples of use
+
+The output is a profile of Flow Monitoring Points.
+
+Data collected includes:
+
+- List of key informants
+
+- Description of points (location, type of points, mode of transport, type of movements)
+
+- Supportive services and assistance available
+
+- List of institutions, NGOs, international organizations operating in the identified areas
+
+#### Method
+
+Data is collected through interviews with key informants and through direct observation. 
+
+#### Limitations and risks
+
+Data collected represents the situation at specific points of transit during selected hours of observations and provides only a partial view of the volume and characteristics of population flows transiting through the Flow Monitoring Points. This tool does not intend to provide a total number of all transiting populations, but rather to estimate volume and characteristics of population flows transiting through an observed point.
+
+### Flow monitoring registry
+
+#### Description and objective
+
+The objective of the Flow Monitoring Registry is to collect information on the volume and basic characteristics of populations transiting during observation hours at selected Flow Monitoring Points.
+
+#### Data collected and examples of use
+
+The output is data on the individuals and groups moving through a transit location where Flow Monitoring Point has been established. Data collected includes: 
+- Number, age and sex of individuals in the group in transit (disaggregation by age and sex may not be possible in early stages) 
+- Previous transit point(s) and next destination (when possible, intended final destination as well) 
+- Nationality 
+- Mode of transportation The data collected is used to assess displacement or migration flows and trends inside a country, within a region or among regions.
+
+#### Method
+Data collection techniques include short interviews with individuals and key informants, or direct observation depending on the context, data needs, access and time allocated for the exercise.
+
+#### Limitations and risks 
+Data collected represents the situation at specific points of transit during selected hours of observations and provides only a partial view of the volume and characteristics of population flows transiting through the Flow Monitoring Points. This tool does not intend to provide a total number of all transiting populations, but rather to estimate volume and characteristics of population flows transiting through an observed point.
+
+### Point of entry (POE) monitoring
+
+#### Description and objective
+
+The COVID-19 pandemic resulted in unprecedented containment policies to restrict global human mobility to prevent the spread of the virus. To better understand how COVID-19 affects mobility across different levels (global, national, and sub-national), IOM has developed a database to map, track and analyze the impact of the COVID-19 pandemic on mobility at Points of Entry (PoE) and other Key Locations of Internal Mobility (KLIM) with restrictive measures and impacted populations. This information is intended to assist in understanding the present situation and in developing tailored responses by partners/governments, as well as provide valuable up-to-date information for further dissemination by civil society, including the media.
+
+#### Data collected and examples of use
+
+Data is collected using the same approach for both Points of Entry and other Key Locations of  Internal  Mobility  (internal  transit  points,  areas  of  interest  and  sites  with  a  population  of interest). Data is also collected on Migrant Flows to try and quantify the movement of migrants.
+
+Points of Entry (PoE) - Cross-border:
+
+- Airports (presently or recently function airport with a designated International Air Traffic Association (IATA) code
+
+- Land border crossing points (international border crossing point on land, including rail)
+
+- Blue border crossing points (international border crossing on sea, river, lake)
+
+- Other Key Locations of Internal Mobility - In-country locations with restrictive measures and impacted populations:
+
+- Internal Transit Points (internal transit points inside a given country, territory or area)
+
+- Areas of Interest (City, Town or Region with COVID-19 related restrictive measures such as a lockdown or quarantine)
+
+- Sites with a population of Interest (locations such as hotels, temporary reception centres, camps, detention centres hosting groups such as migrants who may be stranded)
+
+Migrant Flows
+
+- Estimated Daily Inflow
+
+- Estimated Daily Outflow
+
+To comprehensively evaluate factors impacting Points of Entry, data is also collected on status of location, type of restrictions imposed, affected populations, restriction period, and the Public Health impact.
+
+#### Method
+
+DTM utilizes in-country expertise of IOM offices around the world to collect relevant information in a systematic and structured approach. DTM then cross-validates and continually check the data, in addition to consistent repeated assessments and triangulation of information.
+
+#### Limitations and risks
+
+The situation related to a global pandemic such as COVID-19 mobility restrictions evolved rapidly and thus data was continuously changing. Furthermore, the presented data categorisations may not accurately reflect the multiple and simultaneous restrictive measures at a specific point. The analysis presented on both the interactive and static products are always dated and timestamped in order to reflect the reality at a given time. In order to reflect the change over time, DTM are also conducting time series analysis to demonstrate the evolving context.

@@ -1,0 +1,23 @@
+---
+title: 'Objectives and principles'
+---
+
+## Objectives
+The  overall  aim  of  the  DTM  Methodological  Framework  is  to provide  guidance  on  the  selection  process,  expected  results and  limitations  associated  with  various  components,  tools  and methods  used  by  DTM  for  quantification  of  displacement  and mobility.
+
+## Principles
+This  Framework  has  been  developed  with  the  following  core principles in mind:
+
+1.  The  Methodological  Framework  2nd  Edition  promotes a flexible approach to through the inclusion of various components,  tools  and  methods,  subject  to  minimum DTM  standards,  that  can  be  combined  or  substituted as  needed  to  tailor  DTM  implementation  to  a  wide range of contexts. Local innovation and adaptation are encouraged,  and  have  proven  highly  beneficial  in  past DTM  operations,  helping  to  ensure  relevance,  local ownership and buy-in, and use of data.
+
+2.  The  Framework  aims  to  ensure  the  data  produced through  DTM  is  operational  and  actionable,  through informed selection of components, tools and methods that respond to the objectives and characteristics of a specific context and data needs.
+
+3.  Data  produced  through  DTM  implementation  when possible should be open source, commonly structured1 and  public  to  the  extent  that  data  protection,  do  no harm  and  confidentiality  considerations  allow2  –  i.e. information that is valuable to assist persons in need but at the same time considered sensitive for them if made public,  will  only  be  shared  under  specific  protocols.
+
+To  facilitate  responsible  data  sharing  and  use,  Section 6  of  this  Framework  includes  recommendations  for risk assessment and mitigation, and Section 8 provides an  overview  of  data  governance  responsibilities  and guidance  for  data  classification  and  indicator  selection. In  addition,  IOM  DTM  adheres  to  OCHA’s  Sensitivity Classification guidelines when sharing data.
+
+4.  Neutrality should remain core to the implementation of activities and publishing of results under this Framework. All  components,  tools  and  methods  should  produce data with the minimum bias possible. When feasible, an indication of confidence levels for different data records should  be  considered  for  analysis.  Data  suitable  for public use (as per point 3 above) should be presented in  a  manner  that  allows  for,  and  made  available  for, independent  analysis  and  interpretation  by  external stakeholders.
+
+5.  Regardless  of  the  component,  tools  or  methods selected, protection should be mainstreamed as a core consideration throughout the design and implementation of  DTM  exercises,  building  on  partnerships  with specialized  actors  and  leveraging  results  to  trigger protection activities when possible.
+
+6.  The  Framework  promotes  continuous  learning  and adaptation building on years of experience developing, testing  and  refining  DTM  components,  tools  and methods in various contexts. As operations evolve and expand  in  the  future,  the  Methodological  Framework will  maintain  flexibility  to  incorporate  new  elements over time.

@@ -1,0 +1,77 @@
+---
+title: "Using the DTM dictionary selection of data fields, indicators and questions"
+---
+
+
+Following  the  selection  or  combination  of  DTM  components
+for  implementation,  it  is  necessary  to  designate  key  data  fields,
+indicators  and  questions  for  the  selected  tools.  The  DTM
+Data Dictionary has been developed by the Global DTM team
+to  guide  and  simplify  this  process,  facilitating  standardization
+and  comparability  of  data  attributes  (values  and  formats)  and
+indicators among country exercises, and streamlining workflows
+for  aggregation.  The  Data  Dictionary  further  supports  data
+sharing with partners, providing metadata to orient users on the
+content of DTM datasets.
+
+The Data Dictionary includes core indicators and data attributes
+for each DTM component, to be included in all exercises, as well
+as  standard  indicators  that  can  be  incorporated,  as  useful  and
+relevant, for a given context. Additional indicators can be integrated
+into  ongoing  DTM  exercises  over  time  to  fill  information  gaps
+or respond to changing needs within the operating environment.
+It  is  important  to  note  that  data  attributes  that  were  collected
+previously  should  not  be  changed  or  removed  when  new
+indicators are added, to ensure the completeness of the database
+for future historical record and analysis.
+
+DTM  identifies  vulnerable  groups  and  gathers  sex  and  age
+disaggregated  data  where  possible  to  enhance  inclusivity  of
+response  activities.  DTM  uses  commonly  agreed  categories  for
+the  identification  of  vulnerable  groups,  included  in  the  Data
+Dictionary, while also incorporating context-specific indicators of
+vulnerability.1
+
+The  Data  Dictionary  is  a  centralized  repository  of  information
+about the data fields and questions used in DTM data collection
+tools.  It  has  been  developed  to  help  inform  DTM  operations
+about appropriate and useful indicators to deploy for the various
+components  of  DTM.  Using  the  Data  Dictionary  at  an  early
+stage helps to standardize DTM operations and reduce the time
+required  to  set  up  a  new  operation/DTM  round.  In  addition,
+adoption of the Data Dictionary ensures that all data field naming,
+structuring  are  consistent  whenever  each  individual  indicator  is
+deployed  across  different  country  missions.  All  indicators  have
+been  translated  into  English,  Arabic,  French  and  Spanish,  so
+the  despite  the  wording  of  the  question  may  change  based  on
+context, the back end structing will remain consistent. The Data
+Dictionary simplifies the process of choosing the data fields and
+questions,  and  supports  data  sharing  with  partners,  providing
+metadata (a set of data) to orient users on the content of DTM
+datasets. As previously mentioned, the Data Dictionary data fields
+have been developed with global experts and developed with the
+standard Humanitarian Xchange Language (HXL) structuring.
+
+One  of  the  functionalities  of  the  Data  Dictionary  interface  is  a
+Form builder, that enables the DTM Field Team to select indicators
+from  the  Data  Dictionary  and  build  the  form  for  mobile  data
+collection in a few simple steps. “Optional” and “Recommended”
+questions and their answer options can also be adjusted to the
+context  when  using  the  Form  Builder.  For  support  on  Data
+Dictionary  and  Form  Builder,  please  contact  the  DTM  support
+Services (dtmsupportservices@iom.int).
+
+The Data Dictionary specifies the Question or Indicator Type for
+each question/indicator (data field) to be included in the collection
+tools. There are five Indicator Types:
+
+-  Core (obligatory)
+
+-  Core Central Data Warehouse (CDW) (obligatory)
+
+-  Optional
+
+-  Recommended by Global Sectoral Experts
+
+-  Requested by Mission
+

@@ -1,0 +1,32 @@
+---
+title: "Conclusion"
+---
+
+DTM exercises have been developed, tailored and refined during
+years of operational experience in a wide range of contexts to
+track and monitor mobile populations and their needs. A key
+factor in DTM’s effectiveness to date has been the flexibility to
+customize the design and approach by selecting and combining
+tools and methods to achieve the desired objectives and data
+needs within a specific operating environment.
+
+This Framework aims to facilitate continued innovation, learning
+and adaptation, while promoting quality, coherence and application
+of good practice across DTM operations worldwide. The previous
+sections have been designed to support the identification of
+appropriate components, tools and methods for designing DTM
+activities, within a framework that prioritizes core principles,
+quality assurance, data governance and other related concerns.
+In this updated edition, additional sections with complimentary
+tools such as the DTM Standards and DTM Partners Toolkit have
+been added. These are all being packaged under the DTM Global
+Support Team’s support suite for DTM operations which include:
+
+- DTM Partners Toolkit
+
+- DTM Data Dictionary
+
+- DTM Standards
+
+For any further information, please contact DTM support
+Services: dtmsupportservices@iom.int

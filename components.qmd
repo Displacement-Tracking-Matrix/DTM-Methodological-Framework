@@ -1,0 +1,9 @@
+# Description of DTM components, tools and methods
+
+{{< include _mobility_tracking.qmd >}}
+
+{{< include _flow_monitoring.qmd >}}
+
+{{< include _registration.qmd >}}
+
+{{< include _survey.qmd >}}

@@ -1,0 +1,5 @@
+# Data classification and responsibilities
+
+DTM  data  is  governed  according  to  IOM’s  Migration  Data Governance  Policy  and  Guidelines.  Datasets  are  classified according to risk exposure in case of unauthorized access. 
+
+Data responsibility  of  IOM  staff  is  defined  according  to  roles  (Data Trustee, Data Steward, Data Manager and Data Custodian). IOM staff working on DTM should read and be complicit with IOM’s Migration  Data  Governance  Policy  and  Guidelines,  available  on IOM’s  Intranet  Portal.

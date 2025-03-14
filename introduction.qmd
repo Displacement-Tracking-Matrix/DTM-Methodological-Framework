@@ -1,0 +1,17 @@
+---
+title: "Introduction"
+---
+
+The Displacement Tracking Matrix (DTM) is a system to gather and analyse data to disseminate critical multi layered information on the mobility, vulnerabilities, and needs of displaced and mobile populations that enables decision makers and responders to provide these populations with better context specific assistance.. DTM was first conceptualized in 2004 to monitor internal displacement in  Iraq  and  has  since  been  adapted  for  implementation  in  over 80  countries,  including  in  contexts  of  conflict,  climate  change, disaster, complex emergencies and protracted crises.
+
+DTM is used across various stages of a humanitarian response – commonly during the emergency phase to inform planning and assistance and to inform preparedness activities or transition and recovery  programming.  Implementation  may  support  a  cluster or another stakeholder with targeted information needs or may be intended to contribute to common services and coordination more broadly. In other cases, it may be designed to support host governments to apply methods and tools tested during previous crises.
+
+DTM’s  effectiveness  in  meeting  varying  objectives  in  a  diverse range  of  contexts  relies  on  its  ability  to  maintain  a  lightweight, flexible  and  modular  structure,  enabling  quick  adjustments  and adaptation.  To  preserve  operational  flexibility,  while  promoting quality  and  coherence  across  DTM  activities,  this  Framework outlines  various  components,  tools  and  methods  that  have proven  effective  for  quantifying  displacement  and  mobility  in DTM operations worldwide. As global displacement continues to
+evolve, the scope of DTM’s work has expanded from emergency contexts  to  increasingly  protracted  and  fragile  contexts.  To adequately  respond  to  such  information  needs,  DTM  has developed new tools and methodologies under the Solutions and Mobility Index.[^2]
+
+DTM is a collaborative mechanism. Partnerships and participation on  key  inter-agency  and  multi-stakeholder  initiatives  on  data  at strategic and technical level ensure the relevance and alignment of DTM’s methods, tools and processes to global standards and best  practices.  This  includes  its  links  and  contributions  to  the International  Recommendations  on  IDP  Statistics  (IRIS),  Joint Inter-sectoral  Analysis  Framework  (JIAF),  IASC  Operational Guidance  on  Data  Responsibility  in  Humanitarian  Action,  and other relevant frameworks.
+
+Given the complex and dynamic nature of many contexts where DTM  is  deployed,  tailoring  an  appropriate  approach  can  be challenging and requires an understanding of the characteristics, advantages  and  limitations  of  available  components,  methods and  tools.  Though  flexibility  and  adaptation  are  encouraged, certain standards and obligations apply regardless of the method or approach selected. The sections below aim to capture good practices from past operations, presenting the framework within which  DTM  exercises  are  designed;  the  process  for  selecting and combining components, methods and tools to meet specific objectives; considerations for evaluating and mitigating limitations and risks; and guidance to ensure key principles are upheld.
+
+
+[^2]: For more information on DTM’s Solutions and Mobility Index visit dtm.iom.int/solutions

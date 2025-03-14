@@ -1,0 +1,73 @@
+## Survey
+
+In most cases, it is not possible nor necessary to interview every single member of a large population group because it is too costly and time-consuming, therefore a sample survey is used. A survey is a standardized way of using probability to collect information about a target group that produces conclusions that can be deemed representative of the population of interest. DTM’s survey component enriches and complements other DTM activities by providing a deeper understanding of mobile populations (e.g. IDPs, returnees, migrants). Initial survey design should consider geographic areas of interest, populations of interest and indicators of interest in order to identify the most appropriate methodological approach for the context. Depending on information needs and survey objectives, data can be collected using quantitative or qualitative tools; through individual, household or key informant interviews; and random or purposive sampling methodologies. Indicator selection will determine the appropriate type of survey required (quantitative or qualitative) and the primary sampling units (households, individuals, community representatives). Standardized indicators can be sourced from the DTM Data Dictionary (see Section 7 for more information) and adjusted for contextual needs. Where a survey is part of an inter-agency or multi-sectoral response, indicators may need to be agreed and/or validated through mandated coordination groups. DTM technical experts are available to support on indicator selection and design. Through its flow monitoring, mobility tracking and registration components, DTM builds and regularly updates the master-list of locations and information about how population categories are geographically spread. This baseline information can be used to develop a survey’s sampling framework where the populations of interest for the survey are already covered in the master list. Where statistically representative findings are required, random selection of households or individuals per population group is critical in ensuring validity. DTM technical experts support in the development of sample design methods to ensure an unbiased selection that is tailored to the available sample frame data. DTM has experience implementing the following types of survey categories: Return Intention Survey, Displacement Solutions Survey, Migration Flows Survey, Multi-Sectoral Needs Assessment Survey (MSNA), Socio-economic Surveys, Demographic Survey, and Post-return Surveys. Most DTM surveys are deployed to achieve a range of objectives, as a result specific guidance for the surveys mentioned above can be provided by the DTM Global Support team (dtmsupportservices@iom.int). Guidance for Multi-Sectoral Needs Assessments (MSNA) is provided in the Section 5.4.1 as this survey has a fixed objective.
+
+### Multi-Sectoral Needs Assessments (MSNA)
+
+The  MSNA  survey  approach  builds  on  available  data  on  IDP, resident  and  return  presence  to  provide  more  comprehensive information  on  humanitarian  and  recovery  needs,  directly  from the population of interest. Through mobility tracking and Multi- Sectoral  Location  Assessments  (MSLA),  DTM  operations  are able to provide the population estimates needed for calculating MSNA  sample  size  and  sample  locations.  Using  quantitative household  interviews,  the  approach  captures  characteristics  on vulnerabilities and assistance gaps within the target population(s). An MSNA survey allows for detailed metrics on use and awareness of  services,  disabilities,  specific  needs,  as  well  as  household characteristics  that  vary  too  widely  to  be  accurately  identified at community level. DTM MSNA aligns with the objectives and indicators  of  the  Joint  Intersectoral  Analysis  Framework  (JIAF), under  development  by  the  Joint  Intersectoral  Analysis  Group (JIAG). This inter-organizational tool aims to present a unified and standardized  approach  to  collecting  and  analyzing  humanitarian needs data and forms part of the Grand Bargain commitments of  the  Needs  Assessment  Workstream.1  MSNAs  will  usually integrate into the country-level Humanitarian Programme Cycle, specifically to inform the Humanitarian Needs Overview (HNO) and Humanitarian Response Plan (HPC).
+
+
+#### Description and objective
+
+With  the  objective  of  producing  aggregate  data  and  evidence  on  vulnerabilities,  severity  of needs, and living conditions of target populations in areas of interest, the Multi-Sectoral Needs Assessment  (MSNA)  approach  builds  on  location  information  identified  through  Mobility Tracking  Assessments  and  other  sources  to  identify,  select  and  conduct  household  level interviews.
+
+The target population for MSNA depends on the specific scope and purpose of DTM implementation in a given context, and may include IDP, returnee, refugee populations in camps or camp-like settings (sites), populations residing in villages and neighbourhoods within host communities and/or areas of return of the observed population of concern
+
+#### Data collected and examples of use
+
+Through  household  level  interviews,  the  MSNA  produces  aggregate  data  on  characteristics,
+needs and mobility dynamics of populations of concern (IDPs, returnees, refugees, and residents
+as outlined by JIAF).
+
+At a minimum, data collected includes:
+
+- Demographic characteristics of the population of concern
+
+- Multi-sectoral needs (WASH, food, health, livelihoods, protection, communication, disability and inclusion, etc)
+
+#### Method
+
+
+- Access to basic goods and services
+
+- Shelter/accommodation arrangements
+
+- Reasons for displacement/return
+
+- Date of displacement/return
+
+- Intentions
+
+The results of the MSNA can be used to guide operational responses by identifying needs, gaps in assistance, levels of access to assistance, intentions and concerns for the areas and populations of interest.
+
+The MSNA approach uses a multi-stage design that should be elaborated according to country context,  response  phase,  sector  specific  information  needs,  available  resources,  and  access constraints. Sample design is aimed at achieving a high degree of randomization in the selection of interviewees, while maintaining operational feasibility.
+
+STEP  1:  Identify  target  populations  and  geographic  areas  of  interest.  Compile  necessary population  and  geographic  information  for  the  sample  design.  Where  possible,  this  should include the creation of enumeration areas of reasonably equal size.
+
+STEP  2:  Develop  a  specific  methodological  Terms  of  Reference  that  includes:  sampling strategy, a detailed data collection workplan, allocation of human and logistical resources and ethical considerations.
+
+STEP  3:  Calculate  and  distribute  sample  across  locations  and  population  groups.  This  is dependent on size of the target population(s), desired levels of disaggregation/ analysis.
+
+STEP  4:  Prepare  field  coordinators  to  perform  survey  duties,  including  support  on  ethical interview techniques, safety and security training, confidentiality and consent.
+
+STEP  5:  Identify  and  randomly  select  households  for  interview.  Data  collection  modalities include face-to-face or remote based interviews. Due to the volume of interviews, digital data collection tools are preferred for an MSNA.
+
+STEP  6:  Monitor  and  validate  data  collection  to  ensure  integrity  of  data  through  live  field monitoring, remote sensing and quality checks.
+
+STEP 7: Manage and maintain dataset for release and sector-specific analysis.
+
+STEP 8: Production of reports and visualizations.
+Requirements for Probability Sampling include:
+
+- Target population size in areas/ locations of interest (lowest level admin possible).
+
+- Sample frame (a geo-referenced list of household populations) from which to select households randomly. Several approaches can be used to produce a sample frame, including adaptation of mobility tracking baseline data and spatial analysis of remote population estimates such as WorldPop.
+
+- Access to target locations for face-to-face interviews should be consistent across the geographic areas of interest.
+
+
+#### Limitations and risks
+
+The information collected through this method contains sensitive data on needs, vulnerabilities and other household characteristics which can be misused if not handled properly. To mitigate the risks, surveys are conducted as per the IOM Data Protection Principles and access to the data is strictly regulated. To mitigate the risks of the data being used for an unauthorized and unintended purposes, adequate institutional, technical, and physical safeguards need to be put in  place  during  collection,  storage  and  sharing  of  the  data.  This  exercise  requires  significant technical expertise and is human, logistical and financially resource intensive.
+
+MSNA surveys also entail the collection of sensitive information which may pose a risk to interviewees and data collectors and may trigger recollection of traumatic experiences. Indicators must be carefully designed to reduce trauma, including those relating to minors, persons with disabilities and those having experienced psychological distress or trauma.
